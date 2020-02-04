@@ -57,7 +57,7 @@ spec:
     rules:
         -   http:
                 paths:
-                    -   path: /anonymous-statistics(/|$)(.*)
+                    -   path: /teama(/|$)(.*)
                         backend:
                             serviceName: anonymous-statistics-microservice-service
                             servicePort: 30201
